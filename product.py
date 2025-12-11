@@ -12,4 +12,4 @@ if __name__ == "__main__":
   name= "laptop"
   quantity= "1"
   price= "200000"
-    print(product_details(product_id,name,quantity,price))
+    print(product_details(product_id, name, quantity, price))
