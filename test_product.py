@@ -1,6 +1,6 @@
 from product import product_details
 
-def test_product_details_output():
+def test_product_details_output(): 
     expected_output = (
         "Product ID:P101\n"
         "Product Name:Laptop\n"
