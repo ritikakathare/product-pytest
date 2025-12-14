@@ -3,8 +3,8 @@ from product import product_details
 def test_product_details_output(): 
     expected_output = (
         "Product ID:P101\n"
-        "Product Name:Laptop\n"
+        "Product Name:laptop\n"
         "Quantity:1\n"
         "Price:200000\n"
     )
-    assert product_details("P101","Laptop",1,200000)==expected_output
+    assert product_details("P101","laptop",1,200000)==expected_output
