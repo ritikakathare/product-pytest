@@ -5,6 +5,6 @@ def test_product_details_output():
         "Product ID:P101\n"
         "Product Name:laptop\n"
         "Quantity:1\n"
-        "Price:200000\n"
+        "Price:200000"
     )
     assert product_details("P101","laptop",1,200000)==expected_output
